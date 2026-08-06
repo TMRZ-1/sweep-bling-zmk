@@ -49,10 +49,10 @@
 
         num_layer {
             bindings = <
-&kp ESCAPE      &kp N7  &kp N8  &kp N9  &kp BACKSLASH    &none             &none              &none   &none      &none
-&kp TAB         &kp N4  &kp N5  &kp N6  &kp MINUS        &kp LEFT          &kp DOWN           &kp UP  &kp RIGHT  &kp APOSTROPHE
-&kp LEFT_SHIFT  &kp N1  &kp N2  &kp N3  &kp EQUAL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans     &trans
-                                &none   &kp N0           &trans            &kp DEL
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5    &kp NUMBER_6      &kp N7             &kp N8                &kp N9  &kp N0
+&kp ESCAPE    &none         &kp LEFT_SHIFT  &none         &none     &kp MINUS         &kp EQUAL          &kp GRAVE             &none   &kp APOSTROPHE
+&kp TAB       &none         &none           &none         &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &trans  &trans
+                                            &none         &none     &trans            &kp DEL
             >;
         };
 
